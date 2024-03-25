@@ -18,6 +18,7 @@ def delete_task():
 
 #create a window
 win = tk.Tk()
+win.geometry("800x600")
 win.title("to do list")
 
 #create and add widget
