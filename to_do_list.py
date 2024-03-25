@@ -7,14 +7,14 @@ def add_task():
         listbox.insert(tk.END,tesk)
         entry.delete(0,tk.END)
     else:
-        messagebox.showwarning("warning,please enter a tesk")
+        messagebox.showwarning("warning","please enter a tesk")
     
 def delete_task():
     try:
         selected_index = listbox.curselection()
         listbox.delete(selected_index)
     except:
-        messagebox.showwarning("warning,please select a tesk to delete")
+        messagebox.showwarning("warning","please select a tesk to delete")
 
 #create a window
 win = tk.Tk()
